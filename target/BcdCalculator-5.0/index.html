@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>BCD Calculator</title>
+    </head>
+    <body>
+        <h1>BCD Calculator</h1>
+        <hr>
+        <h2>Calculator</h2>
+        <p>To start calculations please insert two numbers in BCD notation.</p>
+        <p>Example of permissible number in BCD notation: '01011001'.</p>
+        <form action="Calculate" method="GET">
+            <p>First number:<input type=text size=40 name=firstNumber></p>
+            <p>Second number:<input type=text size=40 name=secondNumber></p>
+            <input type="submit" value="Calculate" />
+        </form>
+        <hr>
+        <h2>Check parameter</h2>
+        <p>Please insert number to check if it is a valid number in BCD notation.</p>
+        <form action="Check" method="GET">
+            <p>Number in BCD notation:<input type=text size=40 name=number></p>
+            <input type="submit" value="Check" />
+        </form>
+        <hr>
+        <h2>History of calculations</h2>
+        <form action="History" method="GET">
+            <input type="submit" value="Show history of calculations" />
+        </form>
+        <hr>
+        <h2>History of calculations from database</h2>
+        <form action="HistoryOfCalculationsFromDb" method="GET">
+            <input type="submit" value="Show history of calculations from database" />
+        </form>
+        <hr>
+        <h2>History of checked parameters from database</h2>
+        <form action="HistoryOfParametersFromDb" method="GET">
+            <input type="submit" value="Show history of checked parameters from database" />
+        </form>
+    </body>
+</html>

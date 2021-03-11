@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>javadoc</actionName>
+            <packagings>
+                <packaging>*</packaging>
+            </packagings>
+            <goals>
+                <goal>generate-sources</goal>
+                <goal>javadoc:javadoc</goal>
+                <goal>-Dshow=private</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>run</actionName>
+            <packagings>
+                <packaging>war</packaging>
+            </packagings>
+            <properties>
+                <exec.args>-classpath %classpath controler.BcdCalc</exec.args>
+                <exec.executable>java</exec.executable>
+            </properties>
+        </action>
+    </actions>

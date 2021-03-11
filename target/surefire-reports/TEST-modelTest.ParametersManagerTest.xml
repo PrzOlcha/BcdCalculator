@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="modelTest.ParametersManagerTest" time="0.247" tests="45" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Studia\Moje zgromadzone\Semestr 5\JIUM\BcdCalculator"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Studia\Moje zgromadzone\Semestr 5\JIUM\BcdCalculator"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRZEMY~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;d:\WinAVR-20100110\bin;d:\WinAVR-20100110\utils\bin;D:\app\Przemyslaw\product\18.0.0\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\Przemyslaw\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Users\Przemyslaw\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;."/>
+    <property name="maven.conf" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Przemyslaw"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Przemyslaw"/>
+    <property name="java.class.path" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=D:\Program Files\NetBeans-12.1\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk-11.0.8"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\NetBeans-12.1\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkParametersTestTrue{List}[1]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestTrue{List}[2]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestTrue{List}[3]" classname="modelTest.ParametersManagerTest" time="0.007"/>
+  <testcase name="checkParametersTestTrue{List}[4]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestTrue{List}[5]" classname="modelTest.ParametersManagerTest" time="0.005"/>
+  <testcase name="checkParametersTestTrue{List}[6]" classname="modelTest.ParametersManagerTest" time="0.005"/>
+  <testcase name="checkParametersTestTrue{List}[7]" classname="modelTest.ParametersManagerTest" time="0.003"/>
+  <testcase name="checkParametersTestTrue{List}[8]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestTrue{List}[9]" classname="modelTest.ParametersManagerTest" time="0.003"/>
+  <testcase name="checkParametersTestTrue{List}[10]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestTrue{List}[11]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestTrue{List}[12]" classname="modelTest.ParametersManagerTest" time="0.007"/>
+  <testcase name="checkParametersTestTrue{List}[13]" classname="modelTest.ParametersManagerTest" time="0.003"/>
+  <testcase name="checkParametersTestTrue{List}[14]" classname="modelTest.ParametersManagerTest" time="0.003"/>
+  <testcase name="checkParametersTestTrue{List}[15]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestTrue{List}[16]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestTrue{List}[17]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[1]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[2]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[3]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[4]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[5]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[6]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[7]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[8]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[9]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[10]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[11]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[12]" classname="modelTest.ParametersManagerTest" time="0.004"/>
+  <testcase name="checkParametersTestFalse{List}[13]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[14]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[15]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[16]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[17]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[18]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[19]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[20]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[21]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[22]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[23]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+  <testcase name="checkParametersTestFalse{List}[24]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[25]" classname="modelTest.ParametersManagerTest" time="0"/>
+  <testcase name="checkParametersTestFalse{List}[26]" classname="modelTest.ParametersManagerTest" time="0.002"/>
+  <testcase name="checkParametersTestFalse{List}[27]" classname="modelTest.ParametersManagerTest" time="0.004"/>
+  <testcase name="checkParametersTestFalse{List}[28]" classname="modelTest.ParametersManagerTest" time="0.001"/>
+</testsuite>

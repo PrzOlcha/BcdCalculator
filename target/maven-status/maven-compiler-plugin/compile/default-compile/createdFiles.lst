@@ -1,0 +1,9 @@
+model\ParametersManager.class
+controler\DatabaseConnectionHolder.class
+controler\HistoryServlet.class
+controler\CheckParameterServlet.class
+controler\HistoryOfParametersFromDbServlet.class
+model\CalculatorException.class
+model\Calculator.class
+controler\BcdCalculatorServlet.class
+controler\HistoryOfCalculationsFromDbServlet.class
